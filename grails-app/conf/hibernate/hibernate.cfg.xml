@@ -1,0 +1,9 @@
+<!DOCTYPE hibernate-configuration SYSTEM
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping package="com.pam.bsc.simulator"/>
+        <mapping class="com.pam.bsc.simulator.Simulation"/>
+        <mapping class="com.pam.bsc.simulator.SimulationChild"/>
+    </session-factory>
+</hibernate-configuration>
